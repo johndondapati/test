@@ -40,5 +40,5 @@ jobs:
           ls ${{ github.workspace }}
       - name: Show the contents of index.html
         run: |
-          cat ${{ github.workspace }}\html\index.html
+          cat ${{ github.workspace }}/html/index.html
 
