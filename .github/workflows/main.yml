@@ -38,4 +38,7 @@ jobs:
       - name: List files in the repository
         run: |
           ls ${{ github.workspace }}
+      - name: Show the contents of index.html
+        run: |
+          cat ${{ github.workspace }}\html\index.html
 
